@@ -1,2 +1,8 @@
-Please add your pseudocode to this file
-And a written explanation of your solution
+SOLUTION FOR CONSECUTIVE SUBSTRINGS
+
+How my solution works:
+I used two loops to go through the string. The first loop picks where to start and the second loop picks where to end. Then I use slice to get the substring and put it in my array.
+
+Time complexity: O(n^2) because I have two loops that go through the string.
+
+The main thing that makes it slower is when the string gets longer because then both loops have to do more work.
